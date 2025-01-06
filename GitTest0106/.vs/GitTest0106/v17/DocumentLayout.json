@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\HATM_test\\GitTest0106\\",
+  "WorkspaceRootPath": "D:\\HATM\\GitTest0106\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{341A806D-115E-4C93-8152-C5F622F052C0}|GitTest0106.vcxproj|D:\\HATM_test\\GitTest0106\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{341A806D-115E-4C93-8152-C5F622F052C0}|GitTest0106.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{341A806D-115E-4C93-8152-C5F622F052C0}|GitTest0106.vcxproj|D:\\HATM\\GitTest0106\\memo.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{341A806D-115E-4C93-8152-C5F622F052C0}|GitTest0106.vcxproj|solutionrelative:memo.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{341A806D-115E-4C93-8152-C5F622F052C0}|GitTest0106.vcxproj|D:\\HATM_test\\GitTest0106\\memo.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{341A806D-115E-4C93-8152-C5F622F052C0}|GitTest0106.vcxproj|solutionrelative:memo.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{341A806D-115E-4C93-8152-C5F622F052C0}|GitTest0106.vcxproj|D:\\HATM\\GitTest0106\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{341A806D-115E-4C93-8152-C5F622F052C0}|GitTest0106.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +26,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "memo.md",
-              "DocumentMoniker": "D:\\HATM_test\\GitTest0106\\memo.md",
+              "DocumentMoniker": "D:\\HATM\\GitTest0106\\memo.md",
               "RelativeDocumentMoniker": "memo.md",
-              "ToolTip": "D:\\HATM_test\\GitTest0106\\memo.md",
+              "ToolTip": "D:\\HATM\\GitTest0106\\memo.md",
               "RelativeToolTip": "memo.md",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAqwGUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAmwLgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2025-01-06T02:42:45.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
-              "DocumentMoniker": "D:\\HATM_test\\GitTest0106\\main.cpp",
+              "DocumentMoniker": "D:\\HATM\\GitTest0106\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "D:\\HATM_test\\GitTest0106\\main.cpp",
+              "ToolTip": "D:\\HATM\\GitTest0106\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAFMCAAAAAAAAAAAkwGMCAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAANQAAAAAAAAAAAAgwOsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-06T00:14:17.53Z",
               "EditorCaption": ""

@@ -215,7 +215,7 @@ int main() {
 }
 #endif
 
-#if 0
+#if 1
 /* static 변수는 새로운 인스턴스로 접근해도 값이 저장되어 있어서 연동된다? */
 
 class Fishbun {
@@ -232,7 +232,7 @@ public:
 	}
 };
 
-int Fishbun::cnt2 = 0;
+int Fishbun::cnt2 = 0;	// static 변수 초기화 방법
 
 int main() {
 	Fishbun f1;
@@ -580,7 +580,7 @@ int main() {
 }
 #endif
 
-#if 1
+#if 0
 struct point {
 	int x;
 	int y;
@@ -620,6 +620,29 @@ int main(void) {
 }
 #endif
 
-#include <cstdbool>
+#if 0
+#include <iostream>
+#include <iomanip>
 
-bool a = true;
+void bts(int a = 1, int b = 2, int c = 3) {
+	std::cout << a << "," << b << "," << c << std::endl;
+}
+
+int main() {
+	bts(11, 22, 33); // (1)
+	bts(11, 22); //(2)
+	bts(); //(3)
+	return (0);
+}
+#endif
+
+#if 0
+#include <string>
+
+using namespace std;
+
+int main() {
+	string a = "and Mother";
+	cout << "Father " + a << endl;
+}
+#endif
