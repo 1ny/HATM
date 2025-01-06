@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{341A806D-115E-4C93-8152-C5F622F052C0}|GitTest0106.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{341A806D-115E-4C93-8152-C5F622F052C0}|GitTest0106.vcxproj|D:\\HATM_test\\GitTest0106\\memo.markdown||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{341A806D-115E-4C93-8152-C5F622F052C0}|GitTest0106.vcxproj|solutionrelative:memo.markdown||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{341A806D-115E-4C93-8152-C5F622F052C0}|GitTest0106.vcxproj|D:\\HATM_test\\GitTest0106\\memo.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{341A806D-115E-4C93-8152-C5F622F052C0}|GitTest0106.vcxproj|solutionrelative:memo.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,13 +27,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "memo.markdown",
-              "DocumentMoniker": "D:\\HATM_test\\GitTest0106\\memo.markdown",
-              "RelativeDocumentMoniker": "memo.markdown",
-              "ToolTip": "D:\\HATM_test\\GitTest0106\\memo.markdown",
-              "RelativeToolTip": "memo.markdown",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "Title": "memo.md",
+              "DocumentMoniker": "D:\\HATM_test\\GitTest0106\\memo.md",
+              "RelativeDocumentMoniker": "memo.md",
+              "ToolTip": "D:\\HATM_test\\GitTest0106\\memo.md*",
+              "RelativeToolTip": "memo.md*",
+              "ViewState": "AgIAACMAAAAAAAAAAAAqwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2025-01-06T02:42:45.64Z",
               "EditorCaption": ""
             },
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "D:\\HATM_test\\GitTest0106\\main.cpp*",
               "RelativeToolTip": "main.cpp*",
-              "ViewState": "AgIAADMBAAAAAAAAAAAkwEMBAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAE0CAAAAAAAAAAAkwGsCAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-06T00:14:17.53Z",
               "EditorCaption": ""
