@@ -1,7 +1,7 @@
 #include "employee.h"
 
 int main() {
-	Manage List;
+	Manage pList;
 	int cmd = 0;
 
 	printMenu();
@@ -11,25 +11,24 @@ int main() {
 	while (1) {
 		switch (cmd) {
 		case CMD_HIRE_EMPLOYEE:
-			addEmployee(&List);
+			addEmployee(&pList);
 			break;
 		case CMD_FIRE_EMPLOYEE:
-
+			delEmployee(&pList);
 			break;
 		case CMD_PROMOTE_EMPLOYEE:
-			addEmployee(&List);
+			promoteEmployee(&pList);
 			break;
 		case CMD_LIST_ALL:
-			printList(&List);
+			printAllList(&pList);
 			break;
 		case CMD_LIST_ALL_CURR:
-			
+			printCurrList(&pList);
 			break;
 		case CMD_LIST_ALL_FORMER:
-
+			printFormList(&pList);
 			break;
 		case CMD_QUIT:
-			
 			break;
 		default:
 			cout << "wrong command" << endl;
@@ -41,7 +40,7 @@ int main() {
 		cout << "select number: ";
 		cin >> cmd;
 
-		if (cmd <= 0 || cmd > 6) break;
+		if (cmd == 0) break;
 	}
 
 	return 0;

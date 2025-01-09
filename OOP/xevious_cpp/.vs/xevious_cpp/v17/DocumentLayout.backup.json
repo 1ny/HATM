@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HATM\\xevious_cpp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4C1F59-01C2-488D-964C-0B2C9CF1179F}|xevious_cpp.vcxproj|D:\\HATM\\xevious_cpp\\xevious_cpp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BA4C1F59-01C2-488D-964C-0B2C9CF1179F}|xevious_cpp.vcxproj|solutionrelative:xevious_cpp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "xevious_cpp.cpp",
+              "DocumentMoniker": "D:\\HATM\\xevious_cpp\\xevious_cpp.cpp",
+              "RelativeDocumentMoniker": "xevious_cpp.cpp",
+              "ToolTip": "D:\\HATM\\xevious_cpp\\xevious_cpp.cpp*",
+              "RelativeToolTip": "xevious_cpp.cpp*",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAQwNYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-08T01:46:09.117Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

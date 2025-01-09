@@ -1,0 +1,9 @@
+﻿  key_driver.c
+D:\HATM\xevious_c_r1\key_driver.h(8,10): error C1083: 포함 파일을 열 수 없습니다. 'key_config.h': No such file or directory
+  (소스 파일 'key_driver.c'을(를) 컴파일하는 중)
+  
+  main.c
+D:\HATM\xevious_c_r1\key_driver.h(8,10): error C1083: 포함 파일을 열 수 없습니다. 'key_config.h': No such file or directory
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다...

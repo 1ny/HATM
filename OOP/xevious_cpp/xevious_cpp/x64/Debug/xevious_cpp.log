@@ -1,0 +1,4 @@
+﻿  xevious_cpp.cpp
+D:\HATM\xevious_cpp\xevious_cpp.cpp(81,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\HATM\xevious_cpp\xevious_cpp.cpp(81,21): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  xevious_cpp.vcxproj -> D:\HATM\xevious_cpp\x64\Debug\xevious_cpp.exe
