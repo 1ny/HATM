@@ -1,0 +1,59 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HATM\\VS0109\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C199183A-91D2-4878-A920-10C9D0355843}|VS0109.vcxproj|D:\\HATM\\VS0109\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C199183A-91D2-4878-A920-10C9D0355843}|VS0109.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C199183A-91D2-4878-A920-10C9D0355843}|VS0109.vcxproj|D:\\HATM\\VS0109\\memo.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}",
+      "RelativeMoniker": "D:0:0:{C199183A-91D2-4878-A920-10C9D0355843}|VS0109.vcxproj|solutionrelative:memo.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\HATM\\VS0109\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\HATM\\VS0109\\main.cpp*",
+              "RelativeToolTip": "main.cpp*",
+              "ViewState": "AgIAAGcBAAAAAAAAAAAswIQBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-09T00:09:42.139Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "memo.md",
+              "DocumentMoniker": "D:\\HATM\\VS0109\\memo.md",
+              "RelativeDocumentMoniker": "memo.md",
+              "ToolTip": "D:\\HATM\\VS0109\\memo.md*",
+              "RelativeToolTip": "memo.md*",
+              "ViewState": "AgIAAN0AAAAAAAAAAAAAAPcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-01-09T00:09:47.726Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
