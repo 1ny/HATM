@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\HATM\\VS0108\\",
+  "WorkspaceRootPath": "D:\\HATM\\VS0108\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98120136-5A52-4CB0-B02C-5F21EF7BCB71}|VS0108.vcxproj|E:\\HATM\\VS0108\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{98120136-5A52-4CB0-B02C-5F21EF7BCB71}|VS0108.vcxproj|D:\\HATM\\VS0108\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{98120136-5A52-4CB0-B02C-5F21EF7BCB71}|VS0108.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98120136-5A52-4CB0-B02C-5F21EF7BCB71}|VS0108.vcxproj|E:\\HATM\\VS0108\\memo.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}",
+      "AbsoluteMoniker": "D:0:0:{98120136-5A52-4CB0-B02C-5F21EF7BCB71}|VS0108.vcxproj|D:\\HATM\\VS0108\\memo.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}",
       "RelativeMoniker": "D:0:0:{98120136-5A52-4CB0-B02C-5F21EF7BCB71}|VS0108.vcxproj|solutionrelative:memo.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
     }
   ],
@@ -28,24 +28,23 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "memo.md",
-              "DocumentMoniker": "E:\\HATM\\VS0108\\memo.md",
+              "DocumentMoniker": "D:\\HATM\\VS0108\\memo.md",
               "RelativeDocumentMoniker": "memo.md",
-              "ToolTip": "E:\\HATM\\VS0108\\memo.md",
+              "ToolTip": "D:\\HATM\\VS0108\\memo.md",
               "RelativeToolTip": "memo.md",
               "ViewState": "AgIAACwAAAAAAAAAAAAswGYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-01-08T07:48:55.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T07:48:55.382Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "E:\\HATM\\VS0108\\main.cpp",
+              "DocumentMoniker": "D:\\HATM\\VS0108\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "E:\\HATM\\VS0108\\main.cpp",
+              "ToolTip": "D:\\HATM\\VS0108\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAAAIYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAAIoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-08T07:48:36.53Z",
               "EditorCaption": ""
