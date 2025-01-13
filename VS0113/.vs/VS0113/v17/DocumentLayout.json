@@ -31,8 +31,7 @@
               "ViewState": "AgIAAAoCAAAAAAAAAAAiwBQCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-13T00:10:46.029Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -44,9 +43,9 @@
               "Title": "thread.md",
               "DocumentMoniker": "D:\\HATM\\VS0113\\thread.md",
               "RelativeDocumentMoniker": "thread.md",
-              "ToolTip": "D:\\HATM\\VS0113\\thread.md",
-              "RelativeToolTip": "thread.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "ToolTip": "D:\\HATM\\VS0113\\thread.md*",
+              "RelativeToolTip": "thread.md*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2025-01-13T03:06:05.739Z",
               "EditorCaption": ""
