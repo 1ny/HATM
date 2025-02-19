@@ -1,80 +1,119 @@
+#if 0
 #include <stdio.h>
 #include <stdlib.h>
 
-// 2025 상반기 오토에버 코테 문제 #1
-// 내 풀이 -> n=100000 에서 시간 터짐
-// 개선.ver -> vscode랑 vs에서는 안됨. 근데 왜 소프티어에서는 되지? 이상함
-// 각 노드는 0~2개의 간선을 가질 수 있음
-// 서로 인접한 두 노드는 동시에 선택 불가
-// 최대로 선택할 수 있는 노드 수는?
-#define MAX_N 100000
-
-int n, m;
-int x, y;
-int visited[MAX_N + 1] = {0,};
-int max = 0;
-
-// 정점과 정점을 잇는 포인터 선언언
 typedef struct Node {
     int vertex;
     struct Node* next;
 } Node;
 
-// 인접 리스트 선언 및 초기화
+#define MAX_N 100000
+int n, m;
+int degree[MAX_N + 1] = {0}; // 각 노드의 차수 저장
+int selected[MAX_N + 1] = {0}; // 노드 선택 여부
 Node* graph[MAX_N+1] = {NULL};
 
-// 간선 추가 함수
 void addEdge(int u, int v) {
-    // 새 노드 v를 생성하고, vertex에 v를 저장
     Node* newNode = (Node*)malloc(sizeof(Node));
     newNode->vertex = v;
-
-    // 새 노드 v 의 next에 u 정점의 인접리스트를 넣는다.
-    // 즉, u 정점의 인접리스트 맨 처음에 v 정점을 삽입한다. ?? 이거 맞나?
     newNode->next = graph[u];
-
-    // u 정점의 인접리스트에 newNode 포인터를 할당한다. 그러면 u 정점의 인접리스트가 업데이트됨!
     graph[u] = newNode;
+    degree[u]++;
 }
 
-// 해당 node의 인접리스트에 있는 node는 선택하면 안됨! 
-int check(int node) {
-    Node* g = graph[node];
+int solve() {
+    int count = 0;
 
-    while(g != NULL) {
-        if(visited[g->vertex]) return 0;
-        g = g->next;
+    for (int i = 1; i <= n; i++) {
+        if (!selected[i]) {
+            selected[i] = 1;
+            count++;
+
+            Node* g = graph[i];
+            while (g) {
+                selected[g->vertex] = 1;
+                g = g->next;
+            }
+        }
     }
-
-    return 1;
-}
-
-void dfs(int node, int selCnt) {
-    if(node > n) {
-        if(selCnt > max) max = selCnt;
-        return ;
-    }
-
-    if(check(node)) {
-        visited[node] = 1;
-        dfs(node+1, selCnt+1);
-        visited[node] = 0;
-    }
-    else dfs(node+1, selCnt);
+    
+    return count;
 }
 
 int main() {
     scanf("%d %d", &n, &m);
 
-    for(int i=0; i<m; i++) {
+    for (int i = 0; i < m; i++) {
+        int x, y;
         scanf("%d %d", &x, &y);
         addEdge(x, y);
-        addEdge(y, x); // 양(무)방향
+        addEdge(y, x);
     }
 
-    dfs(1, 0);
-
-    printf("%d", max);
-
+    printf("%d\n", solve());
     return 0;
 }
+#endif
+
+#if 1
+#include <stdio.h>
+#include <stdlib.h>
+
+#define MAX_N 100000
+
+int n, m;
+int edge[MAX_N][2] = {0,};
+int degree[MAX_N] = {0,}; // 각 노드의 차수 저장
+int* adj[MAX_N] = {0,};
+int idx[MAX_N] = {0,}; // adj, 즉 각 노드에 연결된 노드를 추가할때마다 ++
+int visited[MAX_N] = {0,};
+
+int bfs() {
+    int count = 0;
+
+    for (int i = 1; i <= n; i++) {
+        if (!visited[i]) {
+            visited[i] = 1;
+            count++;
+#if 0
+            Node* g = graph[i];
+            while (g) {
+                visited[g->vertex] = 1;
+                g = g->next;
+            }
+#endif
+            for(int j=0; j<idx[i]; j++) {
+                visited[i] = 1;
+            }
+        }
+    }
+    
+    return count;
+}
+
+int main() {
+    scanf("%d %d", &n, &m);
+
+    for (int i = 0; i < m; i++) {
+        scanf("%d %d", &edge[i][0], &edge[i][1]);
+        degree[edge[i][0]]++;
+        degree[edge[i][1]]++;
+    }
+
+    for(int i=0; i<n; i++) {
+        adj[i] = (int*)malloc(degree[i] * sizeof(int));
+    }
+    
+    for(int i=0; i<m; i++) {
+        int x = edge[i][0];
+        int y = edge[i][1];
+        adj[x][idx[x]] = y;
+        adj[y][idx[y]] = x;
+        idx[x]++;
+        idx[y]++;
+    }
+
+    printf("%d\n", bfs());
+    return 0;
+}
+#endif
