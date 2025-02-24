@@ -57,7 +57,7 @@ int jihoon_bfs() {
         for(int j=0; j<c; j++) {
             if(arr[i][j] == 'J') {
                 push(i, j);
-                jihoon_minite[i][j] = 0;    // 지훈 시작점을 0으로 표시시
+                jihoon_minite[i][j] = 0;    // 지훈 시작점을 0으로 표시
             }
         }
     }
@@ -78,7 +78,7 @@ int jihoon_bfs() {
         }
     }
     return -1;  
-    // 다 돌아봤는데, 나갈 구멍 없이 탐색이 끝났을 때 -1(IMPOSSIBLE) 출력력
+    // 다 돌아봤는데, 나갈 구멍 없이 탐색이 끝났을 때 -1(IMPOSSIBLE) 출력
 }
 
 int main(void) {
