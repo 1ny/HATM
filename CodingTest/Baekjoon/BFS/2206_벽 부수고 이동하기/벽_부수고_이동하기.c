@@ -94,5 +94,3 @@ int main() {
     if(origin == -1 && flag) printf("-1");
     else printf("%d", min);
 }
-
-
