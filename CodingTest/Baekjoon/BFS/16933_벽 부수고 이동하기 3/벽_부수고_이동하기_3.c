@@ -45,24 +45,23 @@ int bfs() {
             if(nx < 0 || nx >= n || ny < 0 || ny >= m) continue;
             if(curK >= k && board[nx][ny]) continue;
 
+
             if(board[nx][ny] == 0) {
                 nk = curK;
-                dist[nx][ny][nk][nd] = dist[curX][curY][curK][curD] + 1;
-                push(nx, ny, nk, nd);
             }
             else {
                 if(curD == DAY) {
                     nk = curK + 1;
-                    if(dist[nx][ny][nk][nd] != -1) continue;
-                    dist[nx][ny][nk][nd] = dist[curX][curY][curK][curD] + 1;
-                    push(nx, ny, nk, nd);    
                 }
                 else {
-                    if(dist[curX][curY][curK][nd] != -1) continue;
-                    dist[curX][curY][curK][nd] = dist[curX][curY][curK][curD] + 1;
-                    push(curX, curY, curK, nd);
+                    nx = curX;
+                    ny = curY;
+                    nk = curK;
                 }
             }
+            if(dist[nx][ny][nk][nd] != -1) continue;
+            dist[nx][ny][nk][nd] = dist[curX][curY][curK][curD] + 1;
+            push(nx, ny, nk, nd);
         }
     }
     return -1;
@@ -81,17 +80,5 @@ int main() {
     dist[0][0][0][0] = 1;
     int result = bfs();
 
-    // for(int r=0; r<2; r++) {
-    //     for(int i=0; i<k+1; i++) {
-    //         for(int j=0; j<n; j++) {
-    //             for(int l=0; l<m; l++) {
-    //                 printf("%3d", dist[j][l][i][r]);
-    //             }
-    //             printf("\n");
-    //         }
-    //         printf("\n\n");
-    //     }
-    //     printf("\n\n\n");
-    // }
     printf("%d", result);
 }
