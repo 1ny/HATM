@@ -7,11 +7,12 @@ int n, m;
 int arr[MAX][MAX];
 int queue[MAX*MAX][2];
 int visited[MAX][MAX];
-int visited_area[MAX][MAX];
+// int visited_area[MAX][MAX];
 int dx[4] = {-1, 1, 0, 0};
 int dy[4] = {0, 0, -1, 1};
 int front, rear;
-int area_check[MAX*MAX];
+int area_table[MAX*MAX];
+int area_visited[MAX*MAX];
 int area = 1;
 
 void push(int x, int y) {
@@ -31,13 +32,10 @@ bool is_empty() {
 void bfs(int x, int y) {
     int cnt = 1;
     push(x, y);
-    visited[x][y] = 1;
-    visited_area[x][y] = area;
+    visited[x][y] = area;
     while(!is_empty()) {
-        // printf("front = %d, rear = %d\n", front, rear);
         int curX, curY;
         pop(&curX, &curY);
-        // printf("(%d, %d)\n", curX, curY);
         for(int i=0; i<4; i++) {
             int nx = curX + dx[i];
             int ny = curY + dy[i];
@@ -45,20 +43,12 @@ void bfs(int x, int y) {
             if(visited[nx][ny] || arr[nx][ny]) continue;
             
             push(nx, ny);
-            visited[nx][ny] = 1;
-            visited_area[nx][ny] = area;
+            visited[nx][ny] = area;
             cnt++;
         }
     }
 
-    while(front > 0) {
-        front--;
-        int trX, trY;
-        pop(&trX, &trY);
-        visited[trX][trY] = cnt;
-        front--;            
-    }
-
+    area_table[area] = cnt;
     area++;
 }
 
@@ -79,26 +69,19 @@ int main() {
         }
     }
 
-    
-    // for(int i=0; i<n; i++) {
-    //     for(int j=0; j<m; j++) {
-    //         printf("%d", visited_area[i][j]);
-    //     }
-    //     printf("\n");
-    // }
-    // printf("\n");
-
     for(int i=0; i<n; i++) {
         for(int j=0; j<m; j++) {
-            memset(area_check, 0, sizeof(area_check));
-            if(arr[i][j]) {
+-            if(arr[i][j]) {
+                for(int i=1; i<=area; i++) {
+                    area_visited[i] = 0;
+                }
                 for(int p=0; p<4; p++) {
                     int nx = i + dx[p];
                     int ny = j + dy[p];
                     if(nx < 0 || nx >= n || ny < 0 || ny >= m) continue;
-                    if(visited[nx][ny] == 0 || arr[nx][ny] || area_check[visited_area[nx][ny]]) continue;
-                    arr[i][j] += visited[nx][ny];
-                    area_check[visited_area[nx][ny]] = 1;
+                    if(visited[nx][ny] == 0 || arr[nx][ny] > 0 || area_visited[visited[nx][ny]]) continue;
+                    arr[i][j] += area_table[visited[nx][ny]];
+                    area_visited[visited[nx][ny]] = 1;
                 }
             }
         }
@@ -106,7 +89,7 @@ int main() {
 
     for(int i=0; i<n; i++) {
         for(int j=0; j<m; j++) {
-            printf("%d", arr[i][j]);
+            printf("%d", arr[i][j]%10);
         }
         printf("\n");
     }
