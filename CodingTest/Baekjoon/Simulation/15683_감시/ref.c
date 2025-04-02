@@ -22,7 +22,7 @@ void upd(int x, int y, int dir) {
         y += dy[dir];
         if(x < 0 || x >= n || y < 0 || y >= m || board2[x][y] == 6) return;
         if(board2[x][y] != 0) continue;
-        board2[x][y] = 7; // visit
+        board2[x][y] = 7; // visit check
     }
 }
 
