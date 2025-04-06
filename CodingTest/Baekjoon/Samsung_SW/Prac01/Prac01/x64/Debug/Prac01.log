@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\HATM\CodingTest\Baekjoon\Samsung_SW\Prac01\main.cpp(78,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\HATM\CodingTest\Baekjoon\Samsung_SW\Prac01\main.cpp(82,17): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Prac01.vcxproj -> D:\HATM\CodingTest\Baekjoon\Samsung_SW\Prac01\x64\Debug\Prac01.exe

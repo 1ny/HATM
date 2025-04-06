@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\CodeTree24_2_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1654C1-53A4-4F2C-9805-90937C5C0D1E}|CodeTree24_2_1.vcxproj|D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\CodeTree24_2_1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0C1654C1-53A4-4F2C-9805-90937C5C0D1E}|CodeTree24_2_1.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1654C1-53A4-4F2C-9805-90937C5C0D1E}|CodeTree24_2_1.vcxproj|D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\CodeTree24_2_1\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0C1654C1-53A4-4F2C-9805-90937C5C0D1E}|CodeTree24_2_1.vcxproj|solutionrelative:input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 361,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "input.txt",
+              "DocumentMoniker": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\CodeTree24_2_1\\input.txt",
+              "RelativeDocumentMoniker": "input.txt",
+              "ToolTip": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\CodeTree24_2_1\\input.txt",
+              "RelativeToolTip": "input.txt",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-05T16:00:17.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\CodeTree24_2_1\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\CodeTree24_2_1\\main.cpp*",
+              "RelativeToolTip": "main.cpp*",
+              "ViewState": "AgIAAPwAAAAAAAAAAADwvw4BAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-05T14:49:43.864Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
