@@ -18,8 +18,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 361,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -28,10 +32,9 @@
               "RelativeDocumentMoniker": "input.txt",
               "ToolTip": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\CodeTree24_2_1\\input.txt",
               "RelativeToolTip": "input.txt",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAIwCsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-05T16:00:17.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T16:00:17.499Z"
             },
             {
               "$type": "Document",
@@ -41,7 +44,7 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\CodeTree24_2_1\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAPEBAAAAAAAAAAAcwBICAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAANsAAAAAAAAAAAAAAAgCAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-05T14:49:43.864Z",
               "EditorCaption": ""
