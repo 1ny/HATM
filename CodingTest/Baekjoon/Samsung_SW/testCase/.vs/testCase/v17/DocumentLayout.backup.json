@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\testCase\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A72A60FB-6175-4EFD-BD30-1BBDC9AD8A54}|testCase.vcxproj|D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\testCase\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A72A60FB-6175-4EFD-BD30-1BBDC9AD8A54}|testCase.vcxproj|solutionrelative:input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A72A60FB-6175-4EFD-BD30-1BBDC9AD8A54}|testCase.vcxproj|D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\testCase\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A72A60FB-6175-4EFD-BD30-1BBDC9AD8A54}|testCase.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -14,17 +18,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 219,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "input.txt",
+              "DocumentMoniker": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\testCase\\input.txt",
+              "RelativeDocumentMoniker": "input.txt",
+              "ToolTip": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\testCase\\input.txt*",
+              "RelativeToolTip": "input.txt*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-15T08:00:59.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\testCase\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\testCase\\main.cpp*",
-              "RelativeToolTip": "main.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "ToolTip": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\testCase\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-06T17:09:11.73Z",
               "EditorCaption": ""

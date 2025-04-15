@@ -3,20 +3,24 @@
 using namespace std;
 
 int main() {
-	int n;
-	int loop[100000];
+	int n, k;
+	int coin[10];
+	int sum = 0;
 
-	cin >> n;
+	cin >> n >> k;
 	for(int i=0; i<n; i++)
-		cin >> loop[i];
+		cin >> coin[i];
 
-	sort(loop, loop+n);
+	// 1000원, 500원, 100원을 최대로
+	// 4 + 1 + 2 + 1 + 4 = 12
 
-	int maxRet = 0;
-	for (int i = 1; i <= n; i++) {
-		int comp = loop[n - i] * i;
-		if (comp > maxRet) maxRet = comp;
+	int cnt = 0;
+	for (int i = 0; i < n; i++) {
+		if (k < coin[n - i - 1]) continue;
+		int c = k / coin[n - i - 1];
+		k -= c * coin[n-i-1];
+		cnt += c;
 	}
 
-	cout << maxRet;
+	cout << cnt;
 }
