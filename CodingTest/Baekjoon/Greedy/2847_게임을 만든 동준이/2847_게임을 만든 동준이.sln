@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2847_게임을 만든 동준이", "2847_게임을 만든 동준이.vcxproj", "{3F08F11E-C27F-498A-86E8-53C8B57344A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F08F11E-C27F-498A-86E8-53C8B57344A0}.Debug|x64.ActiveCfg = Debug|x64
+		{3F08F11E-C27F-498A-86E8-53C8B57344A0}.Debug|x64.Build.0 = Debug|x64
+		{3F08F11E-C27F-498A-86E8-53C8B57344A0}.Debug|x86.ActiveCfg = Debug|Win32
+		{3F08F11E-C27F-498A-86E8-53C8B57344A0}.Debug|x86.Build.0 = Debug|Win32
+		{3F08F11E-C27F-498A-86E8-53C8B57344A0}.Release|x64.ActiveCfg = Release|x64
+		{3F08F11E-C27F-498A-86E8-53C8B57344A0}.Release|x64.Build.0 = Release|x64
+		{3F08F11E-C27F-498A-86E8-53C8B57344A0}.Release|x86.ActiveCfg = Release|Win32
+		{3F08F11E-C27F-498A-86E8-53C8B57344A0}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {847F5052-E070-497D-8A6B-678533B502D7}
+	EndGlobalSection
+EndGlobal
