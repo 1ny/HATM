@@ -1,0 +1,9 @@
+﻿  main.c
+D:\HATM\CodingTest\Baekjoon\Samsung_SW\8980_택배\main.c(40,37): warning C4244: '=': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\HATM\CodingTest\Baekjoon\Samsung_SW\8980_택배\main.c(22,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\HATM\CodingTest\Baekjoon\Samsung_SW\8980_택배\main.c(23,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\HATM\CodingTest\Baekjoon\Samsung_SW\8980_택배\main.c(26,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\HATM\CodingTest\Baekjoon\Samsung_SW\8980_택배\main.c(25,13): warning C4101: 'receive' :참조되지 않은 지역 변수입니다.
+D:\HATM\CodingTest\Baekjoon\Samsung_SW\8980_택배\main.c(25,7): warning C4101: 'send' :참조되지 않은 지역 변수입니다.
+D:\HATM\CodingTest\Baekjoon\Samsung_SW\8980_택배\main.c(25,22): warning C4101: 'count' :참조되지 않은 지역 변수입니다.
+  8980_택배.vcxproj -> D:\HATM\CodingTest\Baekjoon\Samsung_SW\8980_택배\x64\Debug\8980_택배.exe

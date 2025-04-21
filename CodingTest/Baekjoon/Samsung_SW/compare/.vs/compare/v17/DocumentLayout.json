@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\compare\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B647913-96A9-44B2-86FC-90FE721D0668}|compare.vcxproj|D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\compare\\output.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8B647913-96A9-44B2-86FC-90FE721D0668}|compare.vcxproj|solutionrelative:output.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B647913-96A9-44B2-86FC-90FE721D0668}|compare.vcxproj|D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\compare\\output2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8B647913-96A9-44B2-86FC-90FE721D0668}|compare.vcxproj|solutionrelative:output2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B647913-96A9-44B2-86FC-90FE721D0668}|compare.vcxproj|D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\compare\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B647913-96A9-44B2-86FC-90FE721D0668}|compare.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "output2.txt",
+              "DocumentMoniker": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\compare\\output2.txt",
+              "RelativeDocumentMoniker": "output2.txt",
+              "ToolTip": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\compare\\output2.txt",
+              "RelativeToolTip": "output2.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAC8AQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-13T11:44:11.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "output.txt",
+              "DocumentMoniker": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\compare\\output.txt",
+              "RelativeDocumentMoniker": "output.txt",
+              "ToolTip": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\compare\\output.txt",
+              "RelativeToolTip": "output.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAC8AQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-13T11:35:01.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\compare\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\compare\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-13T11:34:53.601Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

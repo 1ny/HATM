@@ -1,0 +1,4 @@
+﻿  main.c
+D:\HATM\CodingTest\Baekjoon\Samsung_SW\2170_선 긋기\main.c(23,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\HATM\CodingTest\Baekjoon\Samsung_SW\2170_선 긋기\main.c(27,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  2170_선 긋기.vcxproj -> D:\HATM\CodingTest\Baekjoon\Samsung_SW\2170_선 긋기\x64\Debug\2170_선 긋기.exe
