@@ -26,6 +26,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+=======
+              "DocumentIndex": 2,
+              "Title": "vector",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\vector",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\vector",
+              "ViewState": "AgIAAGgHAAAAAAAAAADgv3oHAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-11T07:59:22.083Z"
+            },
+            {
+              "$type": "Document",
+>>>>>>> 9265802d85322ea84b360d3c139f77ac9bc8a7b6
               "DocumentIndex": 1,
               "Title": "input.txt",
               "DocumentMoniker": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\Prac03\\input.txt",
@@ -34,8 +47,7 @@
               "RelativeToolTip": "input.txt",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAB4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-08T00:10:15.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T00:10:15.298Z"
             },
             {
               "$type": "Document",
@@ -45,7 +57,11 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\Prac03\\main.cpp",
               "RelativeToolTip": "main.cpp",
+<<<<<<< HEAD
               "ViewState": "AgIAAHUAAAAAAAAAAAAYwIMAAAAAAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwDYAAAAOAAAAAAAAAA==",
+>>>>>>> 9265802d85322ea84b360d3c139f77ac9bc8a7b6
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-08T00:10:06.398Z",
               "EditorCaption": ""

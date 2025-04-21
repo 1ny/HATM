@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HATM\\CodingTest\\Baekjoon\\Greedy\\rand\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B278C87-5628-4AFE-935C-22CD95389891}|rand.vcxproj|D:\\HATM\\CodingTest\\Baekjoon\\Greedy\\rand\\output.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8B278C87-5628-4AFE-935C-22CD95389891}|rand.vcxproj|solutionrelative:output.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B278C87-5628-4AFE-935C-22CD95389891}|rand.vcxproj|D:\\HATM\\CodingTest\\Baekjoon\\Greedy\\rand\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B278C87-5628-4AFE-935C-22CD95389891}|rand.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B278C87-5628-4AFE-935C-22CD95389891}|rand.vcxproj|D:\\HATM\\CodingTest\\Baekjoon\\Greedy\\rand\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8B278C87-5628-4AFE-935C-22CD95389891}|rand.vcxproj|solutionrelative:input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "output.txt",
+              "DocumentMoniker": "D:\\HATM\\CodingTest\\Baekjoon\\Greedy\\rand\\output.txt",
+              "RelativeDocumentMoniker": "output.txt",
+              "ToolTip": "D:\\HATM\\CodingTest\\Baekjoon\\Greedy\\rand\\output.txt",
+              "RelativeToolTip": "output.txt",
+              "ViewState": "AgIAAH+GAQAAAAAAAAAswKCGAQAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-15T08:00:37.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "input.txt",
+              "DocumentMoniker": "D:\\HATM\\CodingTest\\Baekjoon\\Greedy\\rand\\input.txt",
+              "RelativeDocumentMoniker": "input.txt",
+              "ToolTip": "D:\\HATM\\CodingTest\\Baekjoon\\Greedy\\rand\\input.txt",
+              "RelativeToolTip": "input.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-15T07:50:39.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\HATM\\CodingTest\\Baekjoon\\Greedy\\rand\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\HATM\\CodingTest\\Baekjoon\\Greedy\\rand\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-15T07:47:08.772Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
