@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\7570_\uC904 \uC138\uC6B0\uAE30\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD515A87-3D27-4F25-97FD-7162AC34060A}|7570_\uC904 \uC138\uC6B0\uAE30.vcxproj|D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\7570_\uC904 \uC138\uC6B0\uAE30\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD515A87-3D27-4F25-97FD-7162AC34060A}|7570_\uC904 \uC138\uC6B0\uAE30.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD515A87-3D27-4F25-97FD-7162AC34060A}|7570_\uC904 \uC138\uC6B0\uAE30.vcxproj|D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\7570_\uC904 \uC138\uC6B0\uAE30\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BD515A87-3D27-4F25-97FD-7162AC34060A}|7570_\uC904 \uC138\uC6B0\uAE30.vcxproj|solutionrelative:input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "input.txt",
+              "DocumentMoniker": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\7570_\uC904 \uC138\uC6B0\uAE30\\input.txt",
+              "RelativeDocumentMoniker": "input.txt",
+              "ToolTip": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\7570_\uC904 \uC138\uC6B0\uAE30\\input.txt",
+              "RelativeToolTip": "input.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-21T15:31:27.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\7570_\uC904 \uC138\uC6B0\uAE30\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "D:\\HATM\\CodingTest\\Baekjoon\\Samsung_SW\\7570_\uC904 \uC138\uC6B0\uAE30\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-04-21T15:31:22.402Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
